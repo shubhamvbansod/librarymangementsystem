@@ -41,7 +41,7 @@ public class LibraryCRUD {
 	{
 		Connection connection =getConnection();
 		String sql = "select password from signindata where email=? ";
-		PreparedStatement preparedStatement =connection.prepareStatement(sql);
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
 		preparedStatement.setString(1, email);
 		ResultSet resultSet = preparedStatement.executeQuery();
 		String password = null;
