@@ -1,5 +1,3 @@
-
-
 public class Library {
 	
 	private int id ;
