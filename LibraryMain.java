@@ -1,5 +1,3 @@
-package jdbc_library_manegment_system;
-
 import java.util.Scanner;
 
 public class LibraryMain {
