@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class LibraryMain {
-	
+public class LibraryMain {	
 	public static void main(String[] args) throws Exception {
 		
 		Scanner scanner = new Scanner(System.in);
